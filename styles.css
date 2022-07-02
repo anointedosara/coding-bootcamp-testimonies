@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    height: 100vh;
+    padding: 100px 50px 0px 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.div1 {
+    width: 1000px;
+    height: 522px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    background-image: url("./images/pattern-bg.svg");
+    background-position: 97% 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 50px 10px 50px;
+    transition: 0.7s all ease;
+}
+
+.div2 {
+    background-image: url("./images/pattern-quotes.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 20% -5%;
+    padding-top: 40px;
+    height: 330px;
+    width: 65%;
+    z-index: 10000;
+}
+
+.div5 .div2 {
+    margin-top: 66px;
+}
+
+.div2 p {
+    font-size: 24.7px;
+    font-weight: 300;
+    color: hsl(240, 38%, 20%);
+    line-height: 35px;
+    margin: 0;
+}
+
+.div2 p:last-child {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+    margin-top: 25px;
+}
+
+.div2 p span {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(240, 38%, 20%);
+    margin-right: 5px;
+}
+
+.div3 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    border-radius: 5px;
+    width: 430px;
+    margin-top: 15px;
+    margin-left: -70px;
+    box-shadow: 0px 30px 500px -25px hsl(190, 18%, 87%);
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    width: 93px;
+    align-items: center;
+    background: white;
+    border-radius: 40px;
+    transform: translate(-158px, -22px);
+    box-shadow: 0px 15px 100px 10px hsl(240, 27%, 76%);
+}
+
+.div6 {
+    width: 100%;
+    border-radius: 40px 0 0 40px;
+    padding: 15px 17px 11px 17px;
+}
+
+.div7 {
+    width: 100%;
+    border-radius: 0 40px 40px 0;
+    padding: 15px 17px 11px 17px;
+    text-align: end;
+}
+
+.div6 img {
+    width: 10px;
+}
+
+.div7 img {
+    width: 10.5px;
+}
+
+.div5 {
+    width: 1000px;
+    height: 522px;
+    max-width: 1440px;
+    margin: -522px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./images/pattern-bg.svg");
+    background-position: 97% 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 50px 10px 50px;
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.attribution {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    color: hsl(240, 38%, 20%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(240, 18%, 77%);
+    transition: 0.5s all ease;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    color: hsl(240, 38%, 20%);
+}
+
+@media screen and (max-width:1150px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("./images/pattern-curve.svg");
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        height: 100vh;
+        padding: 100px 50px 0px 50px;
+        font-family: 'Inter', sans-serif;
+    }
+    .div1 {
+        width: 100%;
+        height: max-content;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        background-image: url("./images/pattern-bg.svg");
+        background-position: 97% 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 50px 50px 10px 50px;
+        transition: 0.7s all ease;
+    }
+    .div2 {
+        background-image: url("./images/pattern-quotes.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 20% -15%;
+        padding-top: 40px;
+        height: 330px;
+        width: 65%;
+        z-index: 10000;
+    }
+    .div5 .div2 {
+        margin-top: 73px;
+    }
+    .div2 p {
+        font-size: 24.7px;
+        font-weight: 300;
+        color: hsl(240, 38%, 20%)
+    }
+    .div2 p:last-child {
+        font-size: 15px;
+        font-weight: 500;
+        color: hsl(240, 18%, 77%);
+    }
+    .div2 p span {
+        font-size: 16px;
+        font-weight: 700;
+        color: hsl(240, 38%, 20%);
+        margin-right: 5px;
+    }
+    .div3 {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1 {
+        border-radius: 5px;
+        width: 430px;
+        margin-top: 3px;
+        margin-left: -70px;
+        box-shadow: 0px 30px 500px -25px hsl(190, 18%, 87%);
+    }
+    .div4 {
+        display: flex;
+        justify-content: space-between;
+        height: max-content;
+        width: 93px;
+        align-items: center;
+        background: white;
+        border-radius: 40px;
+        transform: translate(-158px, -22px);
+        box-shadow: 0px 15px 100px 10px hsl(240, 27%, 76%);
+    }
+    .div6 {
+        width: 100%;
+        border-radius: 40px 0 0 40px;
+        padding: 15px 17px 11px 17px;
+    }
+    .div7 {
+        width: 100%;
+        border-radius: 0 40px 40px 0;
+        padding: 15px 17px 11px 17px;
+        text-align: end;
+    }
+    .div6 img {
+        width: 10px;
+    }
+    .div7 img {
+        width: 10.5px;
+    }
+    .div5 {
+        width: 100%;
+        height: max-content;
+        max-width: 1440px;
+        margin: -538.2px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background-image: url("./images/pattern-bg.svg");
+        background-position: 97% 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 50px 50px 10px 50px;
+        opacity: 0;
+        transition: 1s all ease;
+    }
+    .attribution {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+        color: hsl(240, 38%, 20%);
+    }
+    .attribution a {
+        text-decoration: none;
+        color: hsl(240, 18%, 77%);
+        transition: 0.5s all ease;
+    }
+    .attribution a:hover {
+        text-decoration: underline;
+        color: hsl(240, 38%, 20%);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("./images/pattern-curve.svg");
+        background-repeat: no-repeat;
+        background-position: 0% 130%;
+        height: 100vh;
+        padding: 0px 30px 0px 30px;
+        font-family: 'Inter', sans-serif;
+    }
+    .div1 {
+        width: 100%;
+        height: max-content;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        background-image: none;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        transition: 1s all ease;
+    }
+    .div2 {
+        background-image: url("./images/pattern-quotes.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 50% -17%;
+        padding-top: 40px;
+        margin-top: 20px;
+        height: 330px;
+        width: 100%;
+        z-index: 10000;
+    }
+    .div5 .div2 {
+        margin-top: 0px;
+    }
+    .div2 p {
+        font-size: 17px;
+        font-weight: 300;
+        color: hsl(240, 38%, 20%);
+        text-align: center;
+        line-height: 20px;
+    }
+    .div2 p:last-child {
+        font-size: 15px;
+        font-weight: 500;
+        color: hsl(240, 18%, 77%);
+        display: flex;
+        flex-direction: column;
+    }
+    .div2 p span {
+        font-size: 16px;
+        font-weight: 700;
+        color: hsl(240, 38%, 20%);
+        margin-right: 0px;
+    }
+    .div3 {
+        width: 100%;
+        background-image: url("./images/pattern-bg.svg");
+        background-position: 0% 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1 {
+        border-radius: 5px;
+        width: 85%;
+        margin-top: 27px;
+        margin-left: 0px;
+        box-shadow: 0px 30px 500px -25px hsl(190, 18%, 87%);
+    }
+    .div4 {
+        display: flex;
+        justify-content: space-between;
+        height: max-content;
+        width: 93px;
+        align-items: center;
+        background: white;
+        border-radius: 40px;
+        transform: translate(0px, -22px);
+        box-shadow: 0px 15px 100px 10px hsl(240, 27%, 76%);
+    }
+    .div6 {
+        width: 100%;
+        border-radius: 40px 0 0 40px;
+        padding: 15px 17px 11px 17px;
+    }
+    .div7 {
+        width: 100%;
+        border-radius: 0 40px 40px 0;
+        padding: 15px 17px 11px 17px;
+        text-align: end;
+    }
+    .div6 img {
+        width: 10px;
+    }
+    .div7 img {
+        width: 10.5px;
+    }
+    .div5 {
+        width: 100%;
+        height: max-content;
+        max-width: 1440px;
+        margin: -705.15px auto 0 auto;
+        display: flex;
+        background-image: none;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        opacity: 0;
+        transition: 1s all ease;
+    }
+    .attribution {
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+        color: hsl(240, 38%, 20%);
+    }
+    .attribution a {
+        text-decoration: none;
+        color: hsl(240, 18%, 77%);
+        transition: 0.5s all ease;
+    }
+    .attribution a:hover {
+        text-decoration: underline;
+        color: hsl(240, 38%, 20%);
+    }
+}
