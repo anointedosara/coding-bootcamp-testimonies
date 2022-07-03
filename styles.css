@@ -286,19 +286,19 @@ body {
 @media screen and (max-width: 850px) {
     body {
         margin: 0;
-        padding: 0;
         background-image: url("./images/pattern-curve.svg");
         background-repeat: no-repeat;
-        background-position: 0% 130%;
-        height: 100vh;
+        background-position: 0% 100%;
+        min-height: 100vh;
+        height: max-content;
         padding: 0px 30px 0px 30px;
         font-family: 'Inter', sans-serif;
     }
     .div1 {
         width: 100%;
-        height: max-content;
-        max-width: 1440px;
-        margin: 0 auto;
+        height: 100%;
+        max-width: 400px;
+        margin: 0px auto 0px auto;
         display: flex;
         background-image: none;
         flex-direction: column-reverse;
@@ -311,15 +311,15 @@ body {
         background-image: url("./images/pattern-quotes.svg");
         background-repeat: no-repeat;
         background-size: auto;
-        background-position: 50% -17%;
+        background-position: 50% -40% !important;
         padding-top: 40px;
         margin-top: 20px;
-        height: 330px;
+        height: 200px;
         width: 100%;
         z-index: 10000;
     }
     .div5 .div2 {
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .div2 p {
         font-size: 17px;
@@ -389,9 +389,281 @@ body {
     }
     .div5 {
         width: 100%;
+        height: 100%;
+        max-width: 400px;
+        margin: -662px auto 0 auto;
+        display: flex;
+        background-image: none;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        opacity: 0;
+        transition: 1s all ease;
+    }
+    .attribution {
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+        color: hsl(240, 38%, 20%);
+    }
+    .attribution a {
+        text-decoration: none;
+        color: hsl(240, 18%, 77%);
+        transition: 0.5s all ease;
+    }
+    .attribution a:hover {
+        text-decoration: underline;
+        color: hsl(240, 38%, 20%);
+    }
+}
+
+@media screen and (max-width: 465px) {
+    body {
+        margin: 0;
+        background-image: url("./images/pattern-curve.svg");
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        min-height: 100vh;
         height: max-content;
-        max-width: 1440px;
-        margin: -705.15px auto 0 auto;
+        padding: 0px 30px 0px 30px;
+        font-family: 'Inter', sans-serif;
+    }
+    .div1 {
+        width: 100%;
+        height: 712px;
+        max-width: 400px;
+        margin: 0px auto 0px auto;
+        display: flex;
+        background-image: none;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        transition: 1s all ease;
+    }
+    .div2 {
+        background-image: url("./images/pattern-quotes.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 50% -25% !important;
+        padding-top: 40px;
+        margin-top: 20px;
+        height: 250px;
+        width: 100%;
+        z-index: 10000;
+    }
+    .div5 .div2 {
+        margin-top: 15px;
+    }
+    .div2 p {
+        font-size: 17px;
+        font-weight: 300;
+        color: hsl(240, 38%, 20%);
+        text-align: center;
+        line-height: 20px;
+    }
+    .div2 p:last-child {
+        font-size: 15px;
+        font-weight: 500;
+        color: hsl(240, 18%, 77%);
+        display: flex;
+        flex-direction: column;
+    }
+    .div2 p span {
+        font-size: 16px;
+        font-weight: 700;
+        color: hsl(240, 38%, 20%);
+        margin-right: 0px;
+    }
+    .div3 {
+        width: 100%;
+        background-image: url("./images/pattern-bg.svg");
+        background-position: 0% 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1 {
+        border-radius: 5px;
+        width: 85%;
+        margin-top: 27px;
+        margin-left: 0px;
+        box-shadow: 0px 30px 500px -25px hsl(190, 18%, 87%);
+    }
+    .div4 {
+        display: flex;
+        justify-content: space-between;
+        height: max-content;
+        width: 93px;
+        align-items: center;
+        background: white;
+        border-radius: 40px;
+        transform: translate(0px, -22px);
+        box-shadow: 0px 15px 100px 10px hsl(240, 27%, 76%);
+    }
+    .div6 {
+        width: 100%;
+        border-radius: 40px 0 0 40px;
+        padding: 15px 17px 11px 17px;
+    }
+    .div7 {
+        width: 100%;
+        border-radius: 0 40px 40px 0;
+        padding: 15px 17px 11px 17px;
+        text-align: end;
+    }
+    .div6 img {
+        width: 10px;
+    }
+    .div7 img {
+        width: 10.5px;
+    }
+    .div5 {
+        width: 100%;
+        height: 712px;
+        max-width: 400px;
+        margin: -712px auto 0 auto;
+        display: flex;
+        background-image: none;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        opacity: 0;
+        transition: 1s all ease;
+    }
+    .attribution {
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 50px;
+        color: hsl(240, 38%, 20%);
+    }
+    .attribution a {
+        text-decoration: none;
+        color: hsl(240, 18%, 77%);
+        transition: 0.5s all ease;
+    }
+    .attribution a:hover {
+        text-decoration: underline;
+        color: hsl(240, 38%, 20%);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        background-image: url("./images/pattern-curve.svg");
+        background-repeat: no-repeat;
+        background-position: 0% 118%;
+        min-height: 100vh;
+        height: max-content;
+        padding: 0px 30px 0px 30px;
+        font-family: 'Inter', sans-serif;
+    }
+    .div1 {
+        width: 100%;
+        height: 639.44px;
+        max-width: 400px;
+        margin: 0px auto -20px auto;
+        display: flex;
+        background-image: none;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+        transition: 1s all ease;
+    }
+    .div2 {
+        background-image: url("./images/pattern-quotes.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 50% -25% !important;
+        padding-top: 40px;
+        margin-top: 20px;
+        height: 250px;
+        width: 100%;
+        z-index: 10000;
+    }
+    .div5 .div2 {
+        margin-top: 15px;
+    }
+    .div2 p {
+        font-size: 17px;
+        font-weight: 300;
+        color: hsl(240, 38%, 20%);
+        text-align: center;
+        line-height: 20px;
+    }
+    .div2 p:last-child {
+        font-size: 15px;
+        font-weight: 500;
+        color: hsl(240, 18%, 77%);
+        display: flex;
+        flex-direction: column;
+    }
+    .div2 p span {
+        font-size: 16px;
+        font-weight: 700;
+        color: hsl(240, 38%, 20%);
+        margin-right: 0px;
+    }
+    .div3 {
+        width: 100%;
+        background-image: url("./images/pattern-bg.svg");
+        background-position: 0% 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1 {
+        border-radius: 5px;
+        width: 85%;
+        margin-top: 27px;
+        margin-left: 0px;
+        box-shadow: 0px 30px 500px -25px hsl(190, 18%, 87%);
+    }
+    .div4 {
+        display: flex;
+        justify-content: space-between;
+        height: max-content;
+        width: 93px;
+        align-items: center;
+        background: white;
+        border-radius: 40px;
+        transform: translate(0px, -22px);
+        box-shadow: 0px 15px 100px 10px hsl(240, 27%, 76%);
+    }
+    .div6 {
+        width: 100%;
+        border-radius: 40px 0 0 40px;
+        padding: 15px 17px 11px 17px;
+    }
+    .div7 {
+        width: 100%;
+        border-radius: 0 40px 40px 0;
+        padding: 15px 17px 11px 17px;
+        text-align: end;
+    }
+    .div6 img {
+        width: 10px;
+    }
+    .div7 img {
+        width: 10.5px;
+    }
+    .div5 {
+        width: 100%;
+        height: 639.44px;
+        max-width: 400px;
+        margin: -639.44px auto 0 auto;
         display: flex;
         background-image: none;
         flex-direction: column-reverse;
